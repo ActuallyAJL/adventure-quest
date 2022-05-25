@@ -1,0 +1,16 @@
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.exe
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.deps.json
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.runtimeconfig.json
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.runtimeconfig.dev.json
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.dll
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\ref\adventure-quest.dll
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\bin\Debug\net5.0\adventure-quest.pdb
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.csproj.AssemblyReference.cache
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.AssemblyInfoInputs.cache
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.AssemblyInfo.cs
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.csproj.CoreCompileInputs.cache
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.dll
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\ref\adventure-quest.dll
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.pdb
+C:\Users\zero3\workspace\nss\csharp\adventure-quest\obj\Debug\net5.0\adventure-quest.genruntimeconfig.cache
