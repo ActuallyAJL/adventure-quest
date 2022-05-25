@@ -41,6 +41,7 @@ namespace Quest
             //  If an Adventurer has an Awesomeness less than the min, they are terrible
             int minAwesomeness = 0;
             int maxAwesomeness = 100;
+            Prize prize = new Prize("An uncomfortably cold coin");
 
             string userName = "Jack";
             Console.WriteLine("What is your name?");
@@ -99,6 +100,9 @@ namespace Quest
                 {
                     Console.WriteLine("I guess you did...ok? ...sorta. Still, you should get out of my sight.");
                 }
+
+                prize.ShowPrize(theAdventurer);
+
                 Console.WriteLine("Press 'y' to play again, or anything else to quit");
                 keepPlaying = Console.ReadLine().ToLower();
             }
