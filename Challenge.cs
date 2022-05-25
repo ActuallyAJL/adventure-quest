@@ -25,6 +25,7 @@ namespace Quest
         }
 
         // This method will take an Adventurer object and make that Adventurer perform the challenge
+        public static int challengesCompleted = 0;
         public void RunChallenge(Adventurer adventurer)
         {
             Console.Write($"{_text}: ");
@@ -40,6 +41,7 @@ namespace Quest
 
                 // Note how we access an Adventurer object's property
                 adventurer.Awesomeness += _awesomenessChange;
+                challengesCompleted++;
             }
             else
             {

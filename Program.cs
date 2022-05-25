@@ -141,6 +141,7 @@ namespace Quest
 
                 Console.WriteLine("Press 'y' to play again, or anything else to quit");
                 keepPlaying = Console.ReadLine().ToLower();
+                theAdventurer.Awesomeness += Challenge.challengesCompleted * 10;
             }
         }
     }
