@@ -33,6 +33,22 @@ namespace Quest
                 4, 20
             );
 
+            Challenge strongestAvenger = new Challenge(
+                @"Who's the strongest Avenger?
+                1) Hulk
+                2) Thor
+                3) Captain America
+                4) Iron Man
+                ", 1, 20);
+
+            Challenge smallestThing = new Challenge(
+                @"Which of these is smallest?
+                1) Atom
+                2) Neutron
+                3) Photon
+                4) Neutrino
+                ", 4, 10);
+
             // "Awesomeness" is like our Adventurer's current "score"
             // A higher Awesomeness is better
 
@@ -73,17 +89,37 @@ namespace Quest
                 theAnswer,
                 whatSecond,
                 guessRandom,
-                favoriteBeatle
+                favoriteBeatle,
+                strongestAvenger,
+                smallestThing
             };
+
+            int GetRandomInt(int min, int max)
+            {
+                Random rand = new Random();
+                int r = rand.Next(min, max + 1);
+                return r;
+            }
 
             string keepPlaying = "y";
 
             while (keepPlaying == "y")
             {
-                // Loop through all the challenges and subject the Adventurer to them
-                foreach (Challenge challenge in challenges)
+                List<int> Indexes = new List<int>();
+
+                while (Indexes.Count < 5)
                 {
-                    challenge.RunChallenge(theAdventurer);
+                    int Candidate = GetRandomInt(0, challenges.Count - 1);
+                    if (!Indexes.Contains(Candidate))
+                    {
+                        Indexes.Add(Candidate);
+                    }
+                }
+                // Loop through all the challenges and subject the Adventurer to them
+                for (int i = 0; i < Indexes.Count; i++)
+                {
+                    int Index = Indexes[i];
+                    challenges[Index].RunChallenge(theAdventurer);
                 }
 
                 // This code examines how Awesome the Adventurer is after completing the challenges
