@@ -56,9 +56,12 @@ namespace Quest
 
             robe.Colors = robeColors;
 
+            Hat dumbHat = new Hat();
+            dumbHat.ShininessLevel = 10;
+
 
             // Make a new "Adventurer" object using the "Adventurer" class
-            Adventurer theAdventurer = new Adventurer(userName, robe);
+            Adventurer theAdventurer = new Adventurer(userName, robe, dumbHat);
             Console.WriteLine(theAdventurer.GetDescription());
 
             // A list of challenges for the Adventurer to complete
